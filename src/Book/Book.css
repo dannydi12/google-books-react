@@ -1,0 +1,16 @@
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: min-content;
+}
+
+li div {
+    display: inline-block;
+    width: 50%;
+}
+
+
