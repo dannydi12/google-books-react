@@ -2,15 +2,33 @@ li {
   list-style: none;
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+li section {
+  display: flex;
+  flex-direction: row;
+}
+
+li>h2 {
+  align-self: center;
 }
 
 img {
-  width: min-content;
+  width: initial;
+  height: 100%;
+  align-self: center;
+  margin-right:50px;
+  width: 200px;
+  height: 300px;
 }
 
 li div {
-    display: inline-block;
-    width: 50%;
+  display: inline-block;
+  width: 80%;
+  align-self: center;
 }
-
 

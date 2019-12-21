@@ -3,7 +3,7 @@ import Book from '../Book/Book';
 
 function BookList(props) {
   const books = props.results.map((item, i) => (
-    <Book key={item.id} data={item}/>
+    <Book key={i} data={item}/>
   ));
 
   return (
